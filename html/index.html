@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>Memory Game</h1>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="left">
+            <h1>Test your memory skills with fun card matches!</h1>
+            <p>Choose Number of cards</p>
+            <div class="gridSelection">
+                <input type="radio" id="16" name="cardVal" value="16">
+                <label for="16">16</label><br>
+                <input type="radio" id="20" name="cardVal" value="20">
+                <label for="20">20</label><br>
+                <input type="radio" id="24" name="cardVal" value="24">
+                <label for="24">24</label><br>
+                <input type="radio" id="30" name="cardVal" value="30">
+                <label for="30">30</label><br>
+            </div>
+            <a id="startGameBtn"><button>Start Game</button></a>
+        </div>
+        <div class="right">
+            <img src="/assets/cardImg.png" alt="">
+        </div>
+    </div>
+
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
